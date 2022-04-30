@@ -1,1 +1,1 @@
-/annex/objects/MD5E-s15953--a242d051c547038e34ceb537018e5632.cmd
+../../../../.git/annex/objects/kF/XM/MD5E-s15953--a242d051c547038e34ceb537018e5632.cmd/MD5E-s15953--a242d051c547038e34ceb537018e5632.cmd
