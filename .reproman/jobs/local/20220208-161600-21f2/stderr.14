@@ -1,1 +1,1177 @@
-../../../../.git/annex/objects/pZ/0g/MD5E-s94713--891b9afcd30f9db35684ae0216a2a794.14/MD5E-s94713--891b9afcd30f9db35684ae0216a2a794.14
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow 
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+        code = _serve_one(child_r, fds,code = _serve_one(child_r, fds,
+
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+        code = spawn._main(child_r, parent_sentinel)
+code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+        prepare(preparation_data)prepare(preparation_data)
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+        _fixup_main_from_path(data['init_main_from_path'])_fixup_main_from_path(data['init_main_from_path'])
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+        main_content = runpy.run_path(main_path,main_content = runpy.run_path(main_path,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+        return _run_module_code(code, init_globals, run_name,return _run_module_code(code, init_globals, run_name,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+        _run_code(code, mod_globals, init_globals,
+_run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)    
+exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+        from fmriprep.cli.run import main
+from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+        from .. import configfrom .. import config
+
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+        from templateflow import __version__ as _tf_verfrom templateflow import __version__ as _tf_ver
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+        from . import apifrom . import api
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+        from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layoutfrom .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+        install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+        return return_func(generator_func)(*args, **kwargs)return return_func(generator_func)(*args, **kwargs)
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+        results = list(results)results = list(results)
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+        for r in _process_results(for r in _process_results(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+        for res in results:for res in results:
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+        for r in destination_dataset.get(for r in destination_dataset.get(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+        for r in _process_results(for r in _process_results(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+        for res in results:for res in results:
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    raise ValueError(u"No installed dataset found at "
+ValueError:     No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow.raise ValueError(u"No installed dataset found at "
+
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_01_wf/unwarp_wf/resample/sourcedata/templateflow.
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow 
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+        code = _serve_one(child_r, fds,code = _serve_one(child_r, fds,
+
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+        code = spawn._main(child_r, parent_sentinel)code = spawn._main(child_r, parent_sentinel)
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+        prepare(preparation_data)prepare(preparation_data)
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+        _fixup_main_from_path(data['init_main_from_path'])_fixup_main_from_path(data['init_main_from_path'])
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+        return _run_module_code(code, init_globals, run_name,_run_code(code, mod_globals, init_globals,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+        exec(code, run_globals)_run_code(code, mod_globals, init_globals,
+
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    from fmriprep.cli.run import main
+    exec(code, run_globals)  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+        from fmriprep.cli.run import main
+from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+        from . import apifrom templateflow import __version__ as _tf_ver
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+        from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layoutfrom . import api
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+        from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:    
+for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+        refds = require_dataset(refds = require_dataset(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+        raise ValueError(u"No installed dataset found at "raise ValueError(u"No installed dataset found at "
+
+ValueErrorValueError: : No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow.No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow.
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_02_wf/unwarp_wf/resample/sourcedata/templateflow.
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_03_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_03_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_03_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_03_wf/unwarp_wf/resample/sourcedata/templateflow 
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+Traceback (most recent call last):
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    return return_func(generator_func)(*args, **kwargs)
+      File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+        results = list(results)
+code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    for r in destination_dataset.get(    
+return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    for res in results:    
+from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    refds = require_dataset(
+      File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_03_wf/unwarp_wf/resample/sourcedata/templateflow.
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_03_wf/unwarp_wf/resample/sourcedata/templateflow.
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+        code = _serve_one(child_r, fds,code = _serve_one(child_r, fds,
+
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+        code = spawn._main(child_r, parent_sentinel)code = spawn._main(child_r, parent_sentinel)
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+        prepare(preparation_data)prepare(preparation_data)
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+        _fixup_main_from_path(data['init_main_from_path'])_fixup_main_from_path(data['init_main_from_path'])
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+        main_content = runpy.run_path(main_path,main_content = runpy.run_path(main_path,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+        return _run_module_code(code, init_globals, run_name,return _run_module_code(code, init_globals, run_name,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+        _run_code(code, mod_globals, init_globals,_run_code(code, mod_globals, init_globals,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+        exec(code, run_globals)exec(code, run_globals)
+
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+        from fmriprep.cli.run import mainfrom fmriprep.cli.run import main
+
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+        from .. import configfrom .. import config
+
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+        from templateflow import __version__ as _tf_verfrom templateflow import __version__ as _tf_ver
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from templateflow import __version__ as _tf_ver        
+from . import apifrom . import api
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+            from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layoutfrom .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layoutfrom . import api
+
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+            install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+        return return_func(generator_func)(*args, **kwargs)
+return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+        results = list(results)results = list(results)
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+        for r in _process_results(for r in _process_results(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+        for res in results:for res in results:
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+        for r in destination_dataset.get(for r in destination_dataset.get(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+        for r in _process_results(for r in _process_results(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+        for res in results:for res in results:
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+        refds = require_dataset(refds = require_dataset(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+        raise ValueError(u"No installed dataset found at "
+raise ValueError(u"No installed dataset found at "
+ValueError: ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_03_wf/unwarp_wf/resample/sourcedata/templateflow.
+No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_03_wf/unwarp_wf/resample/sourcedata/templateflow.
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_03_wf/unwarp_wf/resample/sourcedata/templateflow.
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git/.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git/.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Completed clone attempts for Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow) 
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_04_wf/unwarp_wf/resample/sourcedata/templateflow.
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Installing Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow) to get /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow recursively 
+[INFO] Installing Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow) to get /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow recursively 
+[INFO] Installing Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow) to get /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow recursively 
+[INFO] Installing Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow) to get /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow recursively 
+[INFO] Installing Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow) to get /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow recursively 
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+[INFO] Installing Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow) to get /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow recursively 
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 461, in generator_func
+    raise IncompleteResultsError(
+datalad.support.exceptions.IncompleteResultsError: Command did not complete successfully. 1 failed:
+[{'action': 'install',
+  'message': 'target path already exists and not empty, refuse to clone into '
+             'target path',
+  'path': '/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_05_wf/unwarp_wf/resample/sourcedata/templateflow',
+  'refds': None,
+  'source_url': 'https://github.com/templateflow/templateflow.git',
+  'status': 'error',
+  'type': 'dataset'}]
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_06_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_06_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_06_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_06_wf/unwarp_wf/resample/sourcedata/templateflow 
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    prepare(preparation_data)
+      File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    return return_func(generator_func)(*args, **kwargs)    
+main_content = runpy.run_path(main_path,  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+    results = list(results)  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    for r in _process_results(    
+exec(code, run_globals)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config    
+for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+    raise ValueError(u"No installed dataset found at "  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_06_wf/unwarp_wf/resample/sourcedata/templateflow.
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_06_wf/unwarp_wf/resample/sourcedata/templateflow.
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow 
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_07_wf/unwarp_wf/resample/sourcedata/templateflow.
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_08_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_08_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_08_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_08_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_08_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_08_wf/unwarp_wf/resample/sourcedata/templateflow 
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+        code = _serve_one(child_r, fds,code = _serve_one(child_r, fds,
+
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+        code = spawn._main(child_r, parent_sentinel)code = spawn._main(child_r, parent_sentinel)
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+        prepare(preparation_data)prepare(preparation_data)
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+        _fixup_main_from_path(data['init_main_from_path'])_fixup_main_from_path(data['init_main_from_path'])
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+        main_content = runpy.run_path(main_path,main_content = runpy.run_path(main_path,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+        return _run_module_code(code, init_globals, run_name,return _run_module_code(code, init_globals, run_name,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+        _run_code(code, mod_globals, init_globals,_run_code(code, mod_globals, init_globals,
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+        exec(code, run_globals)exec(code, run_globals)
+
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+        from fmriprep.cli.run import mainfrom fmriprep.cli.run import main
+
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+        from .. import configfrom .. import config
+
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+        from templateflow import __version__ as _tf_ver
+from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api    
+from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+        from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+        install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+        return return_func(generator_func)(*args, **kwargs)
+return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+        results = list(results)results = list(results)
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+        for r in _process_results(for r in _process_results(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+        for res in results:for res in results:
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 365, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 365, in __call__
+        for r in res:for r in res:
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+        for r in _process_results(for r in _process_results(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+        for res in results:for res in results:
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/core/distributed/clone.py", line 320, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/datalad/core/distributed/clone.py", line 320, in __call__
+        yield from clone_dataset(yield from clone_dataset(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/core/distributed/clone.py", line 589, in clone_dataset
+  File "/opt/conda/lib/python3.8/site-packages/datalad/core/distributed/clone.py", line 589, in clone_dataset
+        GitRepo.clone(GitRepo.clone(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/support/gitrepo.py", line 949, in clone
+  File "/opt/conda/lib/python3.8/site-packages/datalad/support/gitrepo.py", line 949, in clone
+        raise ValueError(raise ValueError(
+
+ValueErrorValueError: : destination path '/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_08_wf/unwarp_wf/resample/sourcedata/templateflow' already exists and is not an empty directory.destination path '/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_08_wf/unwarp_wf/resample/sourcedata/templateflow' already exists and is not an empty directory.
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+    from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+    from templateflow import __version__ as _tf_ver
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+    from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_08_wf/unwarp_wf/resample/sourcedata/templateflow.
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_09_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_09_wf/unwarp_wf/resample/sourcedata/templateflow 
+[INFO] Cloning dataset to Dataset(/scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_09_wf/unwarp_wf/resample/sourcedata/templateflow) 
+[INFO] Attempting to clone from https://github.com/templateflow/templateflow.git to /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_09_wf/unwarp_wf/resample/sourcedata/templateflow 
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+    code = _serve_one(child_r, fds,    
+code = _serve_one(child_r, fds,  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    code = spawn._main(child_r, parent_sentinel)
+      File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+code = spawn._main(child_r, parent_sentinel)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    Traceback (most recent call last):
+return _run_module_code(code, init_globals, run_name,
+      File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+_run_code(code, mod_globals, init_globals,
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+    _run_code(code, mod_globals, init_globals,    
+exec(code, run_globals)
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+    from fmriprep.cli.run import main    
+Traceback (most recent call last):
+exec(code, run_globals)  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+        from .. import config    from fmriprep.cli.run import main
+code = _serve_one(child_r, fds,
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+    Traceback (most recent call last):
+from .. import config
+      File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+from templateflow import __version__ as _tf_ver
+      File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+code = spawn._main(child_r, parent_sentinel)  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 280, in main
+
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+    from . import api
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+        from templateflow import __version__ as _tf_ver    code = _serve_one(child_r, fds,
+prepare(preparation_data)    
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+        from . import apicode = _serve_one(child_r, fds,
+        
+install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+_fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/forkserver.py", line 319, in _serve_one
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+      File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+code = spawn._main(child_r, parent_sentinel)
+      File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+        code = spawn._main(child_r, parent_sentinel)    main_content = runpy.run_path(main_path,
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 125, in _main
+install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    
+return return_func(generator_func)(*args, **kwargs)  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    prepare(preparation_data)
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 236, in prepare
+    return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+        _fixup_main_from_path(data['init_main_from_path'])    results = list(results)
+    
+return return_func(generator_func)(*args, **kwargs)_run_code(code, mod_globals, init_globals,  File "/opt/conda/lib/python3.8/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    main_content = runpy.run_path(main_path,
+  File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+    exec(code, run_globals)
+      File "/opt/conda/bin/fmriprep", line 5, in <module>
+main_content = runpy.run_path(main_path,
+      File "/opt/conda/lib/python3.8/runpy.py", line 265, in run_path
+for r in _process_results(
+    from fmriprep.cli.run import main  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+
+      File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+results = list(results)    
+return _run_module_code(code, init_globals, run_name,
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+        from .. import configreturn _run_module_code(code, init_globals, run_name,
+
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+  File "/opt/conda/lib/python3.8/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+      File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+for res in results:
+      File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for r in _process_results(        _run_code(code, mod_globals, init_globals,
+exec(code, run_globals)from templateflow import __version__ as _tf_ver
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+
+  File "/opt/conda/lib/python3.8/runpy.py", line 87, in _run_code
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+            from fmriprep.cli.run import mainfrom . import apiexec(code, run_globals)
+
+    
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+for r in destination_dataset.get(  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+  File "/opt/conda/bin/fmriprep", line 5, in <module>
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+            from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout    
+for res in results:from .. import config
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+
+from fmriprep.cli.run import main  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+
+  File "/opt/conda/lib/python3.8/site-packages/fmriprep/cli/run.py", line 25, in <module>
+        install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)for r in _process_results(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    from .. import config
+      File "/opt/conda/lib/python3.8/site-packages/fmriprep/config.py", line 116, in <module>
+from templateflow import __version__ as _tf_ver
+      File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    from . import api
+      File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+from templateflow import __version__ as _tf_ver
+        return return_func(generator_func)(*args, **kwargs)  File "/opt/conda/lib/python3.8/site-packages/templateflow/__init__.py", line 19, in <module>
+for res in results:
+
+      File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout
+          File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+from . import apifor r in _process_results(
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/api.py", line 7, in <module>
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)    
+from .conf import TF_LAYOUT, TF_S3_ROOT, TF_USE_DATALAD, requires_layout  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+
+  File "/opt/conda/lib/python3.8/site-packages/templateflow/conf/__init__.py", line 53, in <module>
+    results = list(results)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    install(path=str(TF_HOME), source=TF_GITHUB_SOURCE, recursive=True)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 484, in eval_func
+        for res in results:refds = require_dataset(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+        for r in _process_results(return return_func(generator_func)(*args, **kwargs)
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    return return_func(generator_func)(*args, **kwargs)
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 476, in return_func
+    raise ValueError(u"No installed dataset found at "    
+        refds = require_dataset(results = list(results)for res in results:ValueError
+
+
+:   File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_09_wf/unwarp_wf/resample/sourcedata/templateflow.results = list(results)
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(    
+for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+      File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    raise ValueError(u"No installed dataset found at "for r in _process_results(
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_09_wf/unwarp_wf/resample/sourcedata/templateflow.
+    for r in _process_results(
+      File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/install.py", line 381, in __call__
+        for r in destination_dataset.get(for res in results:
+
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+      File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+for r in destination_dataset.get(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 396, in generator_func
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    for r in _process_results(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/interface/utils.py", line 579, in _process_results
+    refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    for res in results:
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/get.py", line 849, in __call__
+    raise ValueError(u"No installed dataset found at "
+ValueError: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_09_wf/unwarp_wf/resample/sourcedata/templateflow.
+    refds = require_dataset(
+      File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+refds = require_dataset(
+  File "/opt/conda/lib/python3.8/site-packages/datalad/distribution/dataset.py", line 567, in require_dataset
+    raise ValueError(u"No installed dataset found at "
+    raise ValueError(u"No installed dataset found at "ValueError
+: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_09_wf/unwarp_wf/resample/sourcedata/templateflow.ValueError
+: No installed dataset found at /scratch1/03201/jbwexler/work_dir/fmriprep/ds000117_sub-15/fmriprep_wf/single_subject_15_wf/func_preproc_ses_mri_task_facerecognition_run_09_wf/unwarp_wf/resample/sourcedata/templateflow.

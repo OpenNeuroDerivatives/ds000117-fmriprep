@@ -1,1 +1,13 @@
-../../../../.git/annex/objects/6F/XV/MD5E-s669--65f817c6fc523bc66a77663db36db32f/MD5E-s669--65f817c6fc523bc66a77663db36db32f
+Warning: Permanently added 'c119-011' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c119-034' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c119-062' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c119-094' (ED25519) to the list of known hosts.
+Warning: Permanently added 'c119-103' (ED25519) to the list of known hosts.
+WARNING (02/28/22 01:52:40): LAUNCHER_WORKDIR variable not set. Using current directory.
+using /tmp/launcher.4095819.hostlist.jed2mpR7 to get hosts
+starting job on c119-011
+starting job on c119-034
+starting job on c119-062
+starting job on c119-094
+starting job on c119-103
+Terminated
